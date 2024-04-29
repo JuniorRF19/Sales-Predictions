@@ -8,6 +8,25 @@ Nota: [Fuente original de los datos](https://datahack.analyticsvidhya.com/contes
 
 #Data cleaning is performed (see code for more details)
 
+## Regression Models Comparison for Sales Prediction
+
+| Model               | Training R² | Test R² | MSE       | RMSE     |
+|---------------------|-------------|---------|-----------|----------|
+| Linear Regression   | 0.776       | 0.793   | 618035.53 | 786.15   |
+| KNN (K-Nearest Neighbors) | 0.768  | 0.760   | 813052.21 | 901.69   |
+| Random Forest       | 0.834       | 0.796   | 615540.74 | 784.56   |
+| Decision Tree       | 0.817       | 0.755   | 746823.66 | 864.19   |
+
+### Conclusions
+
+- The Random Forest model achieved the highest coefficient of determination (R²) on the test set, indicating better generalization ability.
+- Although the Linear Regression model has good R² performance, its RMSE is higher compared to other models, suggesting greater dispersion of errors.
+- The Decision Tree model has a similar R² to other models but presents a higher RMSE, indicating greater variability in predictions.
+- Based on the performance metrics and balance between accuracy and generalization, the Random Forest regression model would be the preferred choice for predicting sales.
+- It is advisable to perform adjustments, optimizations, and explore other models to further improve the accuracy of predictions.
+
+
+# Data Analisis
 We will start by analyzing the types of items and the quantity of sales that each type represents. In order to analyze the products with the most market share.
 
 ![image](https://github.com/JuniorRF19/Sales-Predictions/assets/160083935/7c689387-bb96-4e04-939e-74399c8ff4a3)
