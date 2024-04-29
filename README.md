@@ -5,6 +5,7 @@ A sales prediction will be made for food products sold in different stores. The 
 
 
 Nota: [Fuente original de los datos](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#About)
+Nota: [Exposición del video](https://drive.google.com/file/d/1hTC5C2U4MgzuEqr7iDMW6sUHn5pRxUZC/view?usp=drive_link)
 
 #Data cleaning is performed (see code for more details)
 
