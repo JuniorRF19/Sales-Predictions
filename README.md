@@ -6,7 +6,7 @@ A sales prediction will be made for food products sold in different stores. The 
 
 Nota: [Fuente original de los datos](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#About)
 
-#Data cleaning is performed (see code for more details)
+# Data cleaning is performed (see code for more details)
 
 We will start by analyzing the types of items and the quantity of sales that each type represents. In order to analyze the products with the most market share.
 
